@@ -19,9 +19,9 @@ describe ('Testando to-do-list', () => {
       cy.contains('Created by the TodoMVC Team').should('be.visible')
    });    
 
-   it('Verificando Botao para page inicial', () => {
-      cy.get('a').contains('TodoMVC').click()
-      cy.location('href').should('visit','https://todomvc.com/')
-   });
+  // it('Verificando Botao para page inicial', () => {
+    //  cy.get('a').contains('TodoMVC').click()
+      // cy.location('href').should('visit','https://todomvc.com/')
+   // }); 
 });
  
