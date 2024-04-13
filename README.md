@@ -30,7 +30,7 @@ https://github.com/MoisesHsilva1/Projeto-E2E/assets/142702205/a5eafea8-52c4-4dc0
 
 <h2>Licenças usadas</h2>
 
-<a href="https://github.com/alura-cursos/alurapic-base"> AluraPic no github</a>
+<a href="https://github.com/tastejs/todomvc"> TodoMVC no github</a>
 
 # Autor
 
