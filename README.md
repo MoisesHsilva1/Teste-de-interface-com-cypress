@@ -1,7 +1,7 @@
 <h1 align="center"> Teste automatizados de interface e funcionaliddades</h1>
 
 <h2>Descrição do projeto</h2>
-<p>O projeto foi desenvolvido em conjunto com a plataforma do AluraPic, onde foram executados os testes E2E. Esses testes abrangem as funcionalidades de login e cadastro, incluindo os testes que executam as tarefas corretamente e aqueles que lidam com possíveis erros.</p>
+<p>O foi desenvolvido com a proposta de aprofundar conhecimentos com cypress e javascript, consiste em um to-do-list criado pela Team Mvc <p/>
 
 <h2>Status do Projeto</h2>
 <p align="left">
