@@ -2,9 +2,7 @@ describe('Testando o Input da pagina', () => {
   beforeEach(() => {
       cy.visit('https://todomvc.com/examples/react/dist/')
     })
-
-
-
+    
 it('Testando comportamento de usuario adiciando tarefas completas e removendo', () => {
 
         cy.log('Funcao de adicionar tarefa')
