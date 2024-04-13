@@ -29,7 +29,7 @@ it('Testando comportamento de usuario adiciando tarefas completas e removendo', 
     
        cy.log('selecionando botao de remover todas as tarefas completas')
        cy.tarefa()
-       cy.tarefaSelecionada()
+       cy.TarefaconcluidaCheck()
        cy.get('.clear-completed').click()
    })
 })
