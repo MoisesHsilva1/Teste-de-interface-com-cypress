@@ -1,11 +1,12 @@
 <h1 align="center"> Teste automatizados de interface e funcionaliddades</h1>
 
 <h2>Descrição do projeto</h2>
-<p>O foi desenvolvido com a proposta de aprofundar conhecimentos com cypress e javascript, consiste em um to-do-list criado pela Team Mvc <p/>
+<p>O foi desenvolvido com a proposta de aprofundar conhecimentos com cypress e javascript, consiste em um to-do-list criado pela Team Mvc com react 
+ a automção faz teste em sua interface com: titulo, inputs, sub-titulos... <p/>
 
 <h2>Status do Projeto</h2>
 <p align="left">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 <h2>Tecnologias utilizadas</h2>
