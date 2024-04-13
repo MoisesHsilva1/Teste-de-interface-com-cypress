@@ -20,8 +20,7 @@ it.only('Submete a add tarefas e marca como conluidas e apaga-las', () => {
 
   cy.log('limpando as tarefas um por uma')
    Cypress._.times(10, () => {
-    cy.get('[data-testid="todo-item"]').eq(0).trigger('mouseover')
-    cy.get('[data-testid="todo-item"]').eq(0).find('.destroy').invoke('show').click()
+    cy.LimparUmaTarefa()
    })
 
   cy.log('Submete a add tarefa selecionar uma por uma como concluida e apaga-las uma por uma')
@@ -29,8 +28,13 @@ it.only('Submete a add tarefas e marca como conluidas e apaga-las', () => {
     cy.tarefa()
    })
    Cypress._.times(15, () => {
-    cy.selecionar
+    cy.TarefaconcluidaCheck()
+   })
+
+  cy.log('limpando as tarefas um por uma')
+    Cypress._.times(15, () => {
+     cy.LimparUmaTarefa()
    })
 
   })
-})
+ })

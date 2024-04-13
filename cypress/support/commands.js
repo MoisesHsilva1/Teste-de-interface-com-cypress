@@ -7,6 +7,10 @@ Cypress.Commands.add('TarefaconcluidaCheck', (input) => {
 Cypress.Commands.add('todasTarefaConluidas', (input) => {
     cy.get('[data-testid="toggle-all"]').click()
 })
+Cypress.Commands.add('LimparUmaTarefa', (button) => {
+    cy.get('[data-testid="todo-item"]').eq(0).trigger('mouseover')
+    cy.get('[data-testid="todo-item"]').eq(0).find('.destroy').invoke('show').click()
+})
 
 
   
