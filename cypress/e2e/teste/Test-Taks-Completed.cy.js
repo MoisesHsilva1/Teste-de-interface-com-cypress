@@ -1,4 +1,4 @@
-describe('Testando o Input da pagina', () => {
+describe('Testando a plataforma com tarafas marcadas como completas', () => {
   beforeEach(() => {
       cy.visit('https://todomvc.com/examples/react/dist/')
     })
