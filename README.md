@@ -1,8 +1,8 @@
-<h1 align="center"> Teste automatizados de interface e funcionaliddades</h1>
+<h1 align="center"> Testes automatizados de interface e funcionaliddades</h1>
 
 <h2>Descrição do projeto</h2>
 <p>O projeto foi desenvolvido com a proposta de aprofundar conhecimentos com cypress e javascript, consiste em um to-do-list criado pelo Team Mvc com react 
- a automção faz teste em sua interface com: titulo, inputs, sub-titulos... Além desses teste foram feito testes automatizados de diferentes comportamentos do usurio na plataforma.
+ a automação faz teste em sua interface com: titulo, inputs, sub-titulos... Além desses teste foram feito testes automatizados de diferentes comportamentos do usurio na plataforma.
 <p/>
 
 <h2>Status do Projeto</h2>
@@ -16,9 +16,10 @@
 - ``Cypress``
 
 
-<h2>Plataforma de testes</h2>
-<p>Acesso a plataforma do aluraPic </p>
-<a href="https://3076-cypress-alurapic-front.vercel.app/#/home"> Site AluraPic</a>
+
+<h2>Plataforma usada para testes</h2>
+<p>Acesso a plataforma do todoMVC </p>
+<a href="https://todomvc.com/examples/react/dist/"> To-do-list React</a>
 
 
 
