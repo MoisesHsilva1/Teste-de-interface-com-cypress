@@ -1,4 +1,4 @@
-describe ('Testando a funcicionalidade de adicionar tarefas varias vezes', () => {
+describe ('Testando a funcionalidade de adicionar tarefas varias vezes', () => {
     beforeEach( () => {
         cy.visit('https://todomvc.com/examples/react/dist/')
 })
