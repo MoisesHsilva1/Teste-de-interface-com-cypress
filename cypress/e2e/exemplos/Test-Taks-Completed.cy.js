@@ -3,14 +3,13 @@ describe('Testando o Input da pagina', () => {
       cy.visit('https://todomvc.com/examples/react/dist/')
     })
 
-it('funcao para adicionar tarefa', () => {
-    const novaTask = 'Novatarefa'
-    cy.get('[data-testid="text-input"]').type('Tarefa {enter}')
-    cy.get('[data-testid="todo-list"]').should('contain', novaTask)
-})
+
 
 it('Testando comportamento de usuario adiciando tarefas completas e removendo', () => {
-      
+
+        cy.log('Funcao de adicionar tarefa')
+        cy.tarefa()
+        
         cy.log('Selecinando tarefa como concluida')
         cy.get('[type="checkbox"]').check()
 
@@ -25,7 +24,11 @@ it('Testando comportamento de usuario adiciando tarefas completas e removendo', 
 
        cy.log('Removendo apenas uma Tarefa selecionda')
        cy.get('[data-testid="todo-item-button"]').click({force: true})
-   
+
+       cy.log('selecionando botao de remover todas as tarefas completas')
+       cy.tarefa()
+       cy.tarefaSelecionada()
+       cy.get('.clear-completed').click()
    })
 })
 
