@@ -24,10 +24,10 @@
 
 
 <h2>Demonstração da Aplicação</h2>
-<p>Teste de adicionar tarefa, marcar como concluida, como não concluida e apaga.
-   Esse teste simula como um usuario tivesse adicionando diversas tarefas e selecionando uma como conluidas e fazendo esse comportamento sem selecionar como concluidas. 
+<p>Teste de adicionar tarefa, marcar como concluida, como não concluida e apaga. <br>
+   Esse teste simula como um usuario tivesse adicionando diversas tarefas e selecionando uma como concluidas e fazendo esse comportamento sem selecionar como concluidas. 
 </p>
- e
+ 
 
 https://github.com/MoisesHsilva1/Teste-de-interface-com-cypress/assets/142702205/a8782946-dfc8-4ee5-a071-3ad0593b54ff
 
