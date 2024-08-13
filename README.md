@@ -1,4 +1,4 @@
-<h1 align="center"> Testes automatizados de interface e funcionaliddades</h1>
+<h1 align="center"> Testes automatizados de interface e funcionalidades</h1>
 
 <h2>Descrição do projeto</h2>
 <p>O projeto foi desenvolvido com a proposta de aprofundar conhecimentos com Cypress e JavaScript. Consiste em um to-do list criado pelo Team MVC com React. A automação faz teste em sua interface com título, inputs, sub-títulos, entre outros. Além desses testes, foram feitos testes automatizados de diferentes comportamentos do usuário na plataforma.
